@@ -889,24 +889,34 @@ footer
 /* Mode responsive */
 @media screen and (max-width: 360px) {
     .top-bar {
-        width: 81vh;
+        width: 43vh;
         padding: 10px;
         display: block;
     }
 
     .top-bar .contact-info {
-        font-size: 13px;
+        font-size: 9px;
         justify-content: center;
         margin-bottom: 10px;
     }
 
+    .top-bar .social-icons a {
+        width: 23px;
+        height: 23px;
+    }
+
+    .top-bar .social-icons a svg {
+        width: 15px;
+        height: 15px;
+    }
+
     header {
-        width: 81vh;
+        width: 43vh;
         justify-content: center;
     }
 
     header .logo {
-        width: 173px;
+        width: 155px;
     }
 
     header .nav-head {
@@ -914,44 +924,69 @@ footer
     }
 
     .hero {
-        width: 81vh;
+        width: 43vh;
         justify-content: center;
+    }
+
+    .hero .hero-content h1 {
+        font-size: 1.5em;
+    }
+
+    .hero .hero-content p {
+        font-size: 0.8em;
+    }
+
+    .hero .hero-content .contact-btn-2 {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .hero .hero-content .contact-btn-2 .picto {
+        font-size: 10px;
+    }
+
+    .hero .hero-content .contact-info .schedule {
+        font-size: 0.7em;
+    }
+
+    .content-section {
+        padding: 25px;
     }
 
     .home-title {
         padding: 0;
         justify-content: center;
-        width: 69vh;
+        width: 38vh;
     }
 
     .content-item {
         display: grid;
-        width: 70vh;
+        width: 38vh;
     }
 
     .contact-section {
         display: grid;
-        width: 79vh;
+        width: 4vh;
         padding: 40px 0 40px 0; 
     }
 
     .contact-section .contact-content {
-        width: 91%;
+        width: 78%;
         position: absolute;
     }
 
     .advantages {
         display: grid;
-        width: 81vh;
+        width: 43vh;
         padding: 15px;
     }
 
     .advantages .advantage {
-        width: 76vh;
+        width: 40vh;
     }
 
     .section-container-grille {
-        width: 81vh;
+        width: 43vh;
     }
 
     .section-container-grille .photo-grid {
@@ -959,11 +994,15 @@ footer
     }
 
     .section-container-grille .photo-item img {
-        width: 76vh;
+        width: 39vh;
     }
 
     .cta-section {
-        width: 81vh;
+        width: 43vh;
+    }
+
+    .cta-section p {
+        font-size: 15px;
     }
 
     .cta-section::before {
@@ -972,19 +1011,48 @@ footer
 
     footer {
         width: 81vh;
+        padding: 10px 0;
+        display: block;
+    }
+
+    .footer-section {
+        width: 39vh;
+        margin-top: 40px;
+        margin-left: 68px;
+    }
+
+    .footer-section .logo {
+        padding-left: 85px;
     }
     
     .footer-section .contact-details {
         margin-top: 35px;
     }
 
+    .footer-section, .footer-section-social, .footer-section-cta {
+        flex: none;
+    }
+
+    .footer-section-social {
+        width: 39vh;
+    }
+
     .footer-section-social ul {
-        list-style: none;
-        padding-left: 118px;
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .footer-section-social ul li {
+        font-size: 12px;
+        padding: 0 10px;
     }
 
     .footer-section-cta {
         display: none;
+    }
+
+    footer .copyright {
+        width: 44vh;
     }
     
     .main-contact {

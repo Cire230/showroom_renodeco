@@ -887,9 +887,9 @@ footer
 }
 
 /* Mode responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
     .top-bar {
-        width: 95vh;
+        width: 81vh;
         padding: 10px;
         display: block;
     }
@@ -901,7 +901,7 @@ footer
     }
 
     header {
-        width: 95vh;
+        width: 81vh;
         justify-content: center;
     }
 
@@ -914,44 +914,44 @@ footer
     }
 
     .hero {
-        width: 94vh;
+        width: 81vh;
         justify-content: center;
     }
 
     .home-title {
         padding: 0;
         justify-content: center;
-        width: 81vh;
+        width: 69vh;
     }
 
     .content-item {
         display: grid;
-        width: 77vh;
+        width: 70vh;
     }
 
     .contact-section {
         display: grid;
-        width: 83vh;
+        width: 79vh;
         padding: 40px 0 40px 0; 
     }
 
     .contact-section .contact-content {
-        width: 50%;
+        width: 91%;
         position: absolute;
     }
 
     .advantages {
         display: grid;
-        width: 88vh;
-        padding: 18px;
+        width: 81vh;
+        padding: 15px;
     }
 
     .advantages .advantage {
-        width: 79vh;
+        width: 76vh;
     }
 
     .section-container-grille {
-        width: 88vh;
+        width: 81vh;
     }
 
     .section-container-grille .photo-grid {
@@ -959,11 +959,11 @@ footer
     }
 
     .section-container-grille .photo-item img {
-        width: 83vh;
+        width: 76vh;
     }
 
     .cta-section {
-        width: 88vh;
+        width: 81vh;
     }
 
     .cta-section::before {
@@ -971,7 +971,7 @@ footer
     }
 
     footer {
-        width: 88vh;
+        width: 81vh;
     }
     
     .footer-section .contact-details {

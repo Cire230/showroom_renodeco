@@ -889,7 +889,7 @@ footer
 /* Mode responsive */
 @media screen and (max-width: 360px) {
     .top-bar {
-        width: 81vh;
+        width: 51vh;
         padding: 10px;
         display: block;
     }
@@ -911,7 +911,7 @@ footer
     }
 
     header {
-        width: 81vh;
+        width: 51vh;
         justify-content: center;
     }
 
@@ -924,7 +924,7 @@ footer
     }
 
     .hero {
-        width: 81vh;
+        width: 51vh;
         justify-content: center;
     }
 
@@ -971,13 +971,18 @@ footer
     }
 
     .contact-section .contact-content {
-        width: 78%;
+        width: 92%;
         position: absolute;
     }
 
+    .contact-section .contact-image {
+	    position: relative;
+	    margin-left: 32px;
+	}
+
     .advantages {
         display: grid;
-        width: 43vh;
+        width: 47vh;
         padding: 15px;
     }
 
@@ -986,7 +991,7 @@ footer
     }
 
     .section-container-grille {
-        width: 43vh;
+        width: 47vh;
     }
 
     .section-container-grille .photo-grid {
@@ -994,11 +999,11 @@ footer
     }
 
     .section-container-grille .photo-item img {
-        width: 39vh;
+        width: 42vh;
     }
 
     .cta-section {
-        width: 81vh;
+        width: 46vh;
     }
 
     .cta-section p {

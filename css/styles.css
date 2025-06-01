@@ -889,7 +889,7 @@ footer
 /* Mode responsive */
 @media screen and (max-width: 360px) {
     .top-bar {
-        width: 43vh;
+        width: 81vh;
         padding: 10px;
         display: block;
     }
@@ -911,7 +911,7 @@ footer
     }
 
     header {
-        width: 43vh;
+        width: 81vh;
         justify-content: center;
     }
 
@@ -924,7 +924,7 @@ footer
     }
 
     .hero {
-        width: 43vh;
+        width: 81vh;
         justify-content: center;
     }
 
@@ -966,7 +966,7 @@ footer
 
     .contact-section {
         display: grid;
-        width: 4vh;
+        width: 5vh;
         padding: 40px 0 40px 0; 
     }
 
@@ -982,7 +982,7 @@ footer
     }
 
     .advantages .advantage {
-        width: 40vh;
+        width: 44vh;
     }
 
     .section-container-grille {
@@ -998,7 +998,7 @@ footer
     }
 
     .cta-section {
-        width: 43vh;
+        width: 81vh;
     }
 
     .cta-section p {
